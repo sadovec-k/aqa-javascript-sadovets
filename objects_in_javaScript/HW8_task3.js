@@ -7,7 +7,7 @@ const car1 = {
 const car2 = {
     brand : "Volvo",
     model : "S60",
-    owner : 1999
+    owner : "Frodo"
 }
 
 const car3 = {...car1, ...car2};
