@@ -4,18 +4,18 @@ let positiveCoint = 0;
 let negativeCount = 0;
 let zeroCount = 0;
 
-for (let i = 0; i < numbers.length; i++ ){
-    switch(true){
-        case numbers[i] == 0 :
-            zeroCount++;
-            break;
-        case numbers[i] < 0 :
-            negativeCount++;
-            break;
-        case numbers[i] > 0 :
-            positiveCoint++;
-            break;
-    }        
+for (let i = 0; i < numbers.length; i++) {
+	switch (true) {
+		case numbers[i] == 0:
+			zeroCount++;
+			break;
+		case numbers[i] < 0:
+			negativeCount++;
+			break;
+		case numbers[i] > 0:
+			positiveCoint++;
+			break;
+	}
 }
 
 console.log(`Count of positive numbers ${positiveCoint}`);

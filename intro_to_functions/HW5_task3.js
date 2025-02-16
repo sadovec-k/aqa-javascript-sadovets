@@ -1,9 +1,9 @@
-function checkIsGoodsAvailable(available, ordered){
-    if(ordered == 0 ) return "Yor order is empty";
+function checkIsGoodsAvailable(available, ordered) {
+	if (ordered == 0) return "Yor order is empty";
 
-    return available >= ordered 
-        ? "Your order is accepted"
-        : "Your order is too large, we don’t have enough goods.";
+	return available >= ordered
+		? "Your order is accepted"
+		: "Your order is too large, we don’t have enough goods.";
 }
 
 console.log(checkIsGoodsAvailable(10, 0));

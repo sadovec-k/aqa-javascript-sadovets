@@ -1,22 +1,31 @@
 {
-  "name": "aqa-javascript-sadovets",
-  "version": "1.0.0",
-  "description": "For HWs for AQA javaScript course.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sadovec-k/aqa-javascript-sadovets.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sadovec-k/aqa-javascript-sadovets/issues"
-  },
-  "homepage": "https://github.com/sadovec-k/aqa-javascript-sadovets#readme",
-  "dependencies": {
-    "chalk": "^5.4.1"
-  }
+	"name": "aqa-javascript-sadovets",
+	"version": "1.0.0",
+	"description": "For HWs for AQA javaScript course.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky",
+		"lint": "npx eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sadovec-k/aqa-javascript-sadovets.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sadovec-k/aqa-javascript-sadovets/issues"
+	},
+	"homepage": "https://github.com/sadovec-k/aqa-javascript-sadovets#readme",
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"husky": "^9.1.7"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.20.0",
+		"eslint": "^9.20.1",
+		"globals": "^15.15.0",
+		"prettier": "3.5.1"
+	}
 }

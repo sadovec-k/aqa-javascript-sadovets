@@ -1,5 +1,5 @@
-import Book from "./Book.js"
-import EBook from "./EBook.js"
+import Book from "./Book.js";
+import EBook from "./EBook.js";
 
 const book1 = new Book("Sherlock Holmes", "Arthur Conan Doyle", 1999);
 const book2 = new Book("The Lord of the Rings", "John Ronald Reuel Tolkien", 2000);
@@ -10,7 +10,12 @@ book1.printInfo();
 book2.printInfo();
 book3.printInfo();
 
-const ebook1 = new EBook("How to Stop Worrying and Start Living", "Dale Breckenridge Carnegie", 2004, "txt");
+const ebook1 = new EBook(
+	"How to Stop Worrying and Start Living",
+	"Dale Breckenridge Carnegie",
+	2004,
+	"txt",
+);
 
 //call info about ebook
 ebook1.printInfo();
