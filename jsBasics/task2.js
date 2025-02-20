@@ -1,8 +1,8 @@
 let firstUser = "Tom";
-let secondUser = "Jerry"
+let secondUser = "Jerry";
 
 let resultGreetings = "Hello " + firstUser + " and hello " + secondUser + "!";
-console.log(resultGreetings); 
+console.log(resultGreetings);
 
 let templateGreetings = `Hello ${firstUser} and hello ${secondUser}!`;
 console.log(templateGreetings);
